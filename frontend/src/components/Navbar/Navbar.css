@@ -1,0 +1,24 @@
+.navbar{
+    height:10vh;
+    
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    
+}
+
+.nav-links{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:30px;
+    
+    font-size:30px;
+}
+.nav-links a{
+    margin-top:10px;
+    text-decoration:none;
+    color:#6d4a4a;
+}

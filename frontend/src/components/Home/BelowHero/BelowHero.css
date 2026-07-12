@@ -1,0 +1,45 @@
+.below-hero {
+  min-height: 40vh;
+  
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  padding: 40px 9%;
+  overflow: hidden;
+  margin-bottom: 40px;
+   overflow-x: hidden;
+}
+
+.below-text-wrapper {
+  width: 100%;
+}
+
+.below-line {
+  width: 89%;
+  height: 2px;
+  background-color: #9b8267;
+  transform-origin: left center;
+  transform: scaleX(0);
+}
+
+.below-line-top {
+  margin-bottom: 30px;
+}
+
+.below-line-bottom {
+  margin-top: 30px;
+}
+
+.below-text {
+  font-size: 100px;
+  line-height: 1.2;
+  color: #470d12;
+  font-family: "Oswald", serif;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .below-text {
+    font-size: 42px;
+  }
+}
