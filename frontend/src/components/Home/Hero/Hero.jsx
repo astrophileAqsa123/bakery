@@ -20,7 +20,7 @@ const Hero = () => {
         end: "+=500",
         pin: true,
         scrub: 2,
-        markers: true,
+        markers:false,
         onUpdate: (self) => {
           if (self.progress < 0.33) {
             setImage("/cake.png");
